@@ -5,20 +5,19 @@
   "scripts": {
     "dev": "vite",
     "build": "remix build",
-    "start": "remix-serve build",
-    "postinstall": "remix setup node"
+    "start": "remix-serve build"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
     "@remix-run/node": "^2.8.1",
     "@remix-run/react": "^2.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "remix": "^2.8.1",
-    "remix-vite": "^1.19.0",
-    "@anthropic-ai/sdk": "^0.57.0"
+    "remix-vite": "^0.1.5"
   },
   "devDependencies": {
-    "vite": "^5.2.10",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vite": "^7.0.5"
   }
 }
